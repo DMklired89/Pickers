@@ -7,17 +7,23 @@
 //
 
 #import "AppDelegate.h"
-#import "DatePickerViewController.h"
+//#import "DatePickerViewController.h"
 
 
 @implementation AppDelegate
 
 @synthesize window;
 @synthesize rootController;
-
+//@synthesize datePickerView;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //self.datePickerView = [[DatePickerViewController alloc] initWithNibName:@"DatePickerViewController" bundle:nil];
+    
+  self.rootController = [[UITabBarController alloc] initWithNibName:@"TabBarController" bundle:nil];
+    self.window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
+    [self.window addSubview:rootController.view];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
