@@ -7,24 +7,62 @@
 //
 
 #import "AppDelegate.h"
-//#import "DatePickerViewController.h"
-
-
+/*#import "DatePickerViewController.h"
+#import "SingleComponentPickerViewController.h"
+#import "DoubleComponentPickerViewController.h"
+#import "DependentComponentPickerViewController.h"
+#import "CustomPickerViewController.h"
+*/
 @implementation AppDelegate
 
 @synthesize window;
 @synthesize rootController;
-//@synthesize datePickerView;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    //self.datePickerView = [[DatePickerViewController alloc] initWithNibName:@"DatePickerViewController" bundle:nil];
-    
-  self.rootController = [[UITabBarController alloc] initWithNibName:@"TabBarController" bundle:nil];
     self.window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
+    
+    [[NSBundle mainBundle] loadNibNamed:@"TabBarController" owner:self options:nil];;
+    
     [self.window addSubview:rootController.view];
     [self.window makeKeyAndVisible];
     return YES;
+    
+    //self.datePickerView = [[DatePickerViewController alloc] initWithNibName:@"DatePickerViewController" bundle:nil];
+    
+    
+    /*
+  self.rootController = [[UITabBarController alloc] initWithNibName:@"TabBarController" bundle:nil];
+    
+    
+    */
+    
+   /*
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    [[NSBundle mainBundle] loadNibNamed:@"TabBarController" owner:self options:nil];
+    [self.window addSubview:rootController.view];
+   // self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    return YES;
+    */
+    
+    
+    
+     /*self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+     // Override point for customization after application launch.
+     UIViewController *viewController1 = [[DatePickerViewController alloc] initWithNibName:@"DataPickerViewController" bundle:nil];
+     UIViewController *viewController2 = [[SingleComponentPickerViewController alloc] initWithNibName:@"SingleComponentPickerViewController" bundle:nil];
+     UIViewController *viewController3 = [[DoubleComponentPickerViewController alloc] initWithNibName:@"DoubleComponentPickerViewController" bundle:nil];
+     UIViewController *viewController4 = [[DependentComponentPickerViewController alloc] initWithNibName:@"DependentComponentPickerViewController" bundle:nil];
+     UIViewController *viewController5 = [[CustomPickerViewController alloc] initWithNibName:@"CustomPickerViewController" bundle:nil];
+     self.rootController = [[UITabBarController alloc] init];
+     self.rootController.viewControllers = @[viewController1, viewController2, viewController3, viewController4, viewController5];
+     self.window.rootViewController = self.rootController;
+     [self.window makeKeyAndVisible];
+     return YES;*/
+     
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

@@ -9,14 +9,14 @@
 #import <UIKit/UIKit.h>
 //@class DatePickerViewController;
 
-@interface AppDelegate :
-                        //UIResponder <UIApplicationDelegate>
-NSObject <UIApplicationDelegate>{
+@interface AppDelegate :UIResponder <UIApplicationDelegate>
+/*
+{
     UIWindow *window;
    UITabBarController *rootController;
 }
-
+*/
 @property (nonatomic, strong)  UIWindow *window;
-@property (nonatomic, strong) UITabBarController *rootController;
+@property (nonatomic, strong) IBOutlet UITabBarController *rootController;
 //@property (nonatomic, strong) UIViewController *datePickerView;
 @end

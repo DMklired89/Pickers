@@ -132,7 +132,6 @@
 				C3859F76160CBE9600D9FFBB /* AppDelegate.h */,
 				C3859F77160CBE9600D9FFBB /* AppDelegate.m */,
 				C3859F6E160CBE9600D9FFBB /* Supporting Files */,
-				C30AC50B16136E7000ACFE40 /* TabBarController.xib */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -159,6 +158,7 @@
 				C37EDCC1160D94470053CC38 /* CustomPickerViewController.h */,
 				C37EDCC2160D94470053CC38 /* CustomPickerViewController.m */,
 				C37EDCC3160D94470053CC38 /* CustomPickerViewController.xib */,
+				C30AC50B16136E7000ACFE40 /* TabBarController.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";

@@ -13,6 +13,15 @@
 @end
 
 @implementation DoubleComponentPickerViewController
+@synthesize doublePicker;
+@synthesize fillingTypes;
+@synthesize breadTypes;
+
+-(IBAction)buttonPressed{
+    //NSInteger fillingRow = [[doublePicker selectedRowInComponent:kFillingComponent]];
+    //NSInteger breadTypes = [[doublePicker selectedRowInComponent:kBreadComponent]];
+    
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
