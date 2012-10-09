@@ -15,6 +15,13 @@
 		C30AC50C16136E7000ACFE40 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C30AC50B16136E7000ACFE40 /* TabBarController.xib */; };
 		C30AC51116136FFC00ACFE40 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30AC50F16136FFC00ACFE40 /* DatePickerViewController.m */; };
 		C30AC51216136FFC00ACFE40 /* DatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C30AC51016136FFC00ACFE40 /* DatePickerViewController.xib */; };
+		C37E33C916249520004FA2FA /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = C37E33C816249520004FA2FA /* statedictionary.plist */; };
+		C37E33D11624BE76004FA2FA /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = C37E33CB1624BE74004FA2FA /* apple.png */; };
+		C37E33D21624BE76004FA2FA /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = C37E33CC1624BE75004FA2FA /* bar.png */; };
+		C37E33D31624BE76004FA2FA /* cherry.png in Resources */ = {isa = PBXBuildFile; fileRef = C37E33CD1624BE75004FA2FA /* cherry.png */; };
+		C37E33D41624BE76004FA2FA /* crown.png in Resources */ = {isa = PBXBuildFile; fileRef = C37E33CE1624BE75004FA2FA /* crown.png */; };
+		C37E33D51624BE76004FA2FA /* lemon.png in Resources */ = {isa = PBXBuildFile; fileRef = C37E33CF1624BE75004FA2FA /* lemon.png */; };
+		C37E33D61624BE76004FA2FA /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = C37E33D01624BE75004FA2FA /* seven.png */; };
 		C37EDCB4160D931C0053CC38 /* SingleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37EDCB2160D931C0053CC38 /* SingleComponentPickerViewController.m */; };
 		C37EDCB5160D931C0053CC38 /* SingleComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C37EDCB3160D931C0053CC38 /* SingleComponentPickerViewController.xib */; };
 		C37EDCBA160D93920053CC38 /* DoubleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37EDCB8160D93910053CC38 /* DoubleComponentPickerViewController.m */; };
@@ -46,6 +53,13 @@
 		C30AC50E16136FFC00ACFE40 /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
 		C30AC50F16136FFC00ACFE40 /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
 		C30AC51016136FFC00ACFE40 /* DatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerViewController.xib; sourceTree = "<group>"; };
+		C37E33C816249520004FA2FA /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
+		C37E33CB1624BE74004FA2FA /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		C37E33CC1624BE75004FA2FA /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		C37E33CD1624BE75004FA2FA /* cherry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cherry.png; sourceTree = "<group>"; };
+		C37E33CE1624BE75004FA2FA /* crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crown.png; sourceTree = "<group>"; };
+		C37E33CF1624BE75004FA2FA /* lemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lemon.png; sourceTree = "<group>"; };
+		C37E33D01624BE75004FA2FA /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
 		C37EDCB1160D931C0053CC38 /* SingleComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleComponentPickerViewController.h; sourceTree = "<group>"; };
 		C37EDCB2160D931C0053CC38 /* SingleComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleComponentPickerViewController.m; sourceTree = "<group>"; };
 		C37EDCB3160D931C0053CC38 /* SingleComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleComponentPickerViewController.xib; sourceTree = "<group>"; };
@@ -92,6 +106,13 @@
 		C3859F58160CBE9400D9FFBB = {
 			isa = PBXGroup;
 			children = (
+				C37E33CB1624BE74004FA2FA /* apple.png */,
+				C37E33CC1624BE75004FA2FA /* bar.png */,
+				C37E33CD1624BE75004FA2FA /* cherry.png */,
+				C37E33CE1624BE75004FA2FA /* crown.png */,
+				C37E33CF1624BE75004FA2FA /* lemon.png */,
+				C37E33D01624BE75004FA2FA /* seven.png */,
+				C37E33C816249520004FA2FA /* statedictionary.plist */,
 				C3859F84160CD93E00D9FFBB /* 7.png */,
 				C3859F85160CD93E00D9FFBB /* 8.png */,
 				C30AC4E91613149100ACFE40 /* clockicon.png */,
@@ -231,6 +252,13 @@
 				C30AC4F21613149200ACFE40 /* toolicon.png in Resources */,
 				C30AC50C16136E7000ACFE40 /* TabBarController.xib in Resources */,
 				C30AC51216136FFC00ACFE40 /* DatePickerViewController.xib in Resources */,
+				C37E33C916249520004FA2FA /* statedictionary.plist in Resources */,
+				C37E33D11624BE76004FA2FA /* apple.png in Resources */,
+				C37E33D21624BE76004FA2FA /* bar.png in Resources */,
+				C37E33D31624BE76004FA2FA /* cherry.png in Resources */,
+				C37E33D41624BE76004FA2FA /* crown.png in Resources */,
+				C37E33D51624BE76004FA2FA /* lemon.png in Resources */,
+				C37E33D61624BE76004FA2FA /* seven.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
